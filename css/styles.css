@@ -1,0 +1,64 @@
+h1 {
+    font-family: "Varela",sans-serif;
+}
+#title{
+    background-color: #F9CEEE;
+    
+}
+.row{
+    padding-top: 100px;
+}
+/* .container-fluid{
+    padding: 3% 15%;
+} */
+.navbar-brand{
+   font-size: 1.8rem;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+}
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+#features{
+    padding: 7% 15%;   
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-family: "Varela",sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+
+
+}
+h3{
+    font-family: "Varela";
+}
+#testimonials{
+    padding: 7% 15%;
+    background-color:#79DAE8;
+    color: #251D3A;
+}
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+}
+.press-logo{
+    width:20%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
