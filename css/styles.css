@@ -27,10 +27,13 @@ h1 {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    z-index: -1;
 }
 
 #features{
-    padding: 7% 15%;   
+    padding: 7% 15%; 
+    background-color: #fff;  
 }
 .feature-box{
     text-align: center;
@@ -47,8 +50,8 @@ h3{
     font-family: "Varela";
 }
 #testimonials{
-    padding: 7% 15%;
-    background-color:#79DAE8;
+   
+    background-color:#764AF1;
     color: #251D3A;
 }
 .testimonial-image{
@@ -61,4 +64,48 @@ h3{
 }
 .carousel-item{
     padding: 7% 15%;
+
+}
+
+/* pricing section */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:5% 5%;
+}
+
+@media (max-width: 1030px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+
+}
+
+#cta{
+    background-color: #764AF1;
+    color: #fff;
+    font-family: "Varela",sans-serif ;
+    padding: 15% 15%;
+}
+.cta-heading{
+   font-family: "Varela"; 
+   font-size: 3.5rem;
+   line-height: 1.5;
+
+}
+
+#footer{
+    padding: 7% 15%;
+    background-color: #00092C;
+    font-size: 2rem;
+    color:white;
+    text-align: center;
 }
